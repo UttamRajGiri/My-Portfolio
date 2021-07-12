@@ -21,28 +21,22 @@ class MainBanner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="main-banner-content">
-                                            <h1>We're an IT agency</h1>
-
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h1>Hi, I'm Uttam Raj Giri</h1>
+                                            <p>You don't have to be great to start, but you have to start to be great.</p>
 
                                             <Link href="/contact">
-                                                <a className="btn btn-primary">Get Started</a>
+                                                <a className="btn btn-primary">About Us</a>
                                             </Link>
 
-                                            <Link href="/#play-video">
-                                                <a
-                                                    onClick={e => { e.preventDefault(); this.openModal() }}
-                                                    className="btn btn-secondary"
-                                                >
-                                                    <i className="icofont-ui-play"></i> How it works
-                                                </a>
+                                            <Link href="/contact">
+                                                <a className="btn btn-secondary">Our Team</a>
                                             </Link>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-6">
                                         <div className="animate-banner-image">
-                                            <img src="/images/animate-banner-img1.jpg" alt="Animate image" />
+                                            <img src="/images/about-me.jpg" alt="Animate image" />
                                         </div>
                                     </div>
                                 </div>
