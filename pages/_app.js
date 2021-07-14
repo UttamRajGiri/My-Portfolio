@@ -36,6 +36,7 @@ export default class MyApp extends App {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <title>Uttam Raj Giri - Web Developer </title>
+          <script data-ad-client="ca-pub-5711539168274525" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
 
         <Component {...pageProps} />
